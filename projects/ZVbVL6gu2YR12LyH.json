@@ -1,0 +1,136 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "17b9e647-f383-4adf-af97-3592c74af809",
+        "text": {
+          "ops": [
+            {
+              "insert": "Abonelik Takip Rehberi"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b4980ea3-27d7-4810-9412-92e962291eb9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Yeni abonelik eklemek için uygulamadaki formda ad, kategori ve başlangıç/bitiş tarihlerini gir.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2e7e726f-2904-4b95-bf47-81ee31a0562b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Bitiş tarihi yaklaşan ve geçmiş abonelikler uygulamanın listesinde tarihe göre gösterilir.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1be023e3-7914-4346-9119-880782af4ea6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Hatırlatma yalnızca Aktif durumundaki abonelikler için, bitiş gününde saat 09.00 Europe/Istanbul saatinde e-posta gönderir.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "44ba828f-ee10-4abe-b489-bcc077853334",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Asistan uygulamanın nasıl kullanılacağı konusunda yardımcı olur; kişisel abonelik kayıtlarını görmez.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📁"
+    }
+  }
+}

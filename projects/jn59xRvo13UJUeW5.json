@@ -1,0 +1,2588 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "28ee155d-3170-418d-a4fc-ec2d495b9112",
+        "text": {
+          "ops": [
+            {
+              "insert": "Abonelikler"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "4c97dffd-68a5-4f25-a8cb-bbc36a4af57f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Cursor"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 20,
+              "@1c4ce": "Cursor",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-19",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-19",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Cursor"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a449188d-a648-485d-b51c-733143dce98a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Claude"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 20,
+              "@1c4ce": "Claude",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-25",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-25",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Claude"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "dccb0607-9c29-4cda-9c99-a4d2bdb05592",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Abacus AI"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 20,
+              "@1c4ce": "Abacus",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-13",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-13",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Basic",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Abacus AI"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2a96bfb0-2743-42df-987d-93ba1b017627",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ChatGPT"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 24,
+              "@1c4ce": "ChatGPT",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Plus",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "ChatGPT"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bed9d6e1-d587-4277-be9a-9c8cc9a5657a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Taskade"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 96,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-07-23",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-07-23",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Taskade"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ba1e8795-006c-41bb-9541-e2a93eca1cec",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Emergent"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sN4me": "Emergent",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-09-03",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-09-03",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 100,
+              "@cur01": "USD"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b08470ad-e4e3-484d-bf82-500e8322f9df",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Qoder"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 20,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-10",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-10",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Qoder"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a9abb5-9648-4708-b327-4887516782b6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Grok"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "3 ay",
+              "@prc01": 1900,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-24",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-08-24",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "SuperGrok",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Grok"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "761573d0-e31d-4fb2-90ca-596ae6cd4a1f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "YouMind"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 18,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-09",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-09",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "YouMind"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "74811727-8f5e-4d4e-894f-ea93b19a5030",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Google AI"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 179.99,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-08",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-08",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Google AI"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "18c2c5e9-e98d-49d7-a5dc-3401b3eaebcc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Google AI"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 899,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-01",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-01",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Google AI"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7aa649d6-5ba1-4080-b6c9-1cf82e4288a8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Labex"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 49.9,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-12-01",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-12-01",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Labex"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6ee25c1b-f499-4ea8-bb79-cb72ef8d5be7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Udemy"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 1980,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-10",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-11-10",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Personal",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Udemy"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a461466a-0105-493e-a2dd-0c7352a9da77",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Coursera"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 239,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-14",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-11-14",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Plus",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Coursera"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5706728d-2c4b-4b2e-a017-0e8ee99fef5c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Datacamp"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 74.99,
+              "@1c4ce": "DataCamp",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-12-05",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-12-05",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Datacamp"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6e6f1301-6b52-4a6f-813a-987cf77a2a94",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Pluralsight"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 187.2,
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-21",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-11-21",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Complete",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Pluralsight"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3679e585-07e8-41de-998e-02c2765c22ff",
+            "text": {
+              "ops": [
+                {
+                  "insert": "LinkedIn"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 1151.86,
+              "@1c4ce": "LinkedIn",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-06-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-06-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "LinkedIn"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "86ebfc9a-0385-4e40-a106-cf850764243e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Codecademy"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 95.94,
+              "@1c4ce": "Codecademy",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-02-19",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-02-19",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Pro",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Codecademy"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "901fe2e4-b4cc-4173-bddc-6063237b389f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Boot.dev"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sN4me": "Boot.dev",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-12-02",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-12-02",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 1819.3,
+              "@cur01": "TRY"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "86587e51-1e17-46d3-9176-b6221eca1c3c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TryHackMe"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@sN4me": "TryHackMe",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2025-11-24",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-24",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 90,
+              "@cur01": "USD"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b6c76d3d-ff66-48a2-ac70-0336101990e5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Hermes-Agent VPS"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "EUR",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 7.99,
+              "@1c4ce": "Contabo",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-12",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-12",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "hosting"
+              },
+              "@sN4me": "Hermes-Agent VPS"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "919e74f7-4f18-48d0-8a0d-13d2a1fed1a9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "PostgreSQL DB VPS"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 9839.88,
+              "@1c4ce": "Hostinger",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-08-21",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-08-21",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "KVM2",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "hosting"
+              },
+              "@sN4me": "PostgreSQL DB VPS"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f9e31886-e4dd-42e4-a89a-00867ed284cf",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Business Web Hosting"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "4 yıl",
+              "@prc01": 23999.52,
+              "@1c4ce": "Hostinger",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2030-04-13",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-04-13",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Business",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "hosting"
+              },
+              "@sN4me": "Business Web Hosting"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b7c6a4fc-2dc6-4416-a52f-728feb61d879",
+            "text": {
+              "ops": [
+                {
+                  "insert": "dataxtools.com"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "3 yıl",
+              "@prc01": 2249.97,
+              "@1c4ce": "Hostinger",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2029-07-18",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-07-18",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "domain"
+              },
+              "@sN4me": "dataxtools.com"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2a124388-aebd-4214-9a54-2562ac8c39af",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Scribd"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "TRY",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 gün",
+              "@prc01": 214.99,
+              "@1c4ce": "Scribd",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-12-11",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-12-10",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "Scribd"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "663c7f5d-8e66-4771-941b-047f26a4a7f3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "QA Platfrom (Cloud Academy)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 yıl",
+              "@prc01": 111.5,
+              "@1c4ce": "QA",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-05-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-05-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Individual",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "egitim"
+              },
+              "@sN4me": "QA Platfrom (Cloud Academy)"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4b3ff3ac-c03b-4510-a615-0290d9a9ab21",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Alibaba Token Plan Individual"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "3 ay",
+              "@prc01": 51,
+              "@1c4ce": "Alibaba Cloud",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2027-01-16",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-16",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Standard",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Alibaba Token Plan Individual"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "fe896c72-7c5e-44a6-ab96-1d792159581a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Lumina"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 10,
+              "@1c4ce": "Alibaba Cloud",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-14",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-14",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Basic",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Lumina"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1d04572e-bfe9-47db-af12-badd705680e7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Bolt.new"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cur01": "USD",
+              "@stat5": {
+                "type": "Select",
+                "optionId": "active"
+              },
+              "@dur4t": "1 ay",
+              "@prc01": 9,
+              "@1c4ce": "Bolt",
+              "@endd2": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-11-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@strt1": {
+                "type": "DateTime",
+                "dateTime": {
+                  "date": "2026-10-06",
+                  "time": "00:00:00",
+                  "timezone": "Etc/UTC"
+                }
+              },
+              "@plan9": "Lite",
+              "@tYp3x": {
+                "type": "Select",
+                "optionId": "ai"
+              },
+              "@sN4me": "Bolt.new"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sN4me": {
+            "id": "/attributes/@sN4me",
+            "fieldPath": "/attributes/@sN4me",
+            "rank": "z"
+          },
+          "/attributes/@tYp3x": {
+            "id": "/attributes/@tYp3x",
+            "fieldPath": "/attributes/@tYp3x",
+            "rank": "zV"
+          },
+          "/attributes/@strt1": {
+            "id": "/attributes/@strt1",
+            "fieldPath": "/attributes/@strt1",
+            "rank": "zk"
+          },
+          "/attributes/@endd2": {
+            "id": "/attributes/@endd2",
+            "fieldPath": "/attributes/@endd2",
+            "rank": "zs"
+          },
+          "/attributes/@stat5": {
+            "id": "/attributes/@stat5",
+            "fieldPath": "/attributes/@stat5",
+            "rank": "zw"
+          },
+          "c66aaf5d-48a1-44ae-ac87-741b767dc2ee": {
+            "id": "c66aaf5d-48a1-44ae-ac87-741b767dc2ee",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "zy"
+          },
+          "352d3422-3d27-43cf-a863-5a1badc194d6": {
+            "id": "352d3422-3d27-43cf-a863-5a1badc194d6",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zz"
+          },
+          "cc2fb65d-0e9b-4959-ab80-b384e0d1a82f": {
+            "id": "cc2fb65d-0e9b-4959-ab80-b384e0d1a82f",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zzV"
+          },
+          "41c3e3ce-2fba-4855-a4e6-8f5f06a17d04": {
+            "id": "41c3e3ce-2fba-4855-a4e6-8f5f06a17d04",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zzk"
+          },
+          "69665f4a-7e92-41f9-9bc1-e16dafce5e02": {
+            "id": "69665f4a-7e92-41f9-9bc1-e16dafce5e02",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zzs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sN4me": {
+            "id": "/attributes/@sN4me",
+            "fieldPath": "/attributes/@sN4me",
+            "rank": "z"
+          },
+          "/attributes/@tYp3x": {
+            "id": "/attributes/@tYp3x",
+            "fieldPath": "/attributes/@tYp3x",
+            "rank": "zV"
+          },
+          "/attributes/@strt1": {
+            "id": "/attributes/@strt1",
+            "fieldPath": "/attributes/@strt1",
+            "rank": "zk"
+          },
+          "/attributes/@endd2": {
+            "id": "/attributes/@endd2",
+            "fieldPath": "/attributes/@endd2",
+            "rank": "zs"
+          },
+          "/attributes/@stat5": {
+            "id": "/attributes/@stat5",
+            "fieldPath": "/attributes/@stat5",
+            "rank": "zw"
+          },
+          "09366ac9-b2fb-44dc-8e50-af2f7f45623f": {
+            "id": "09366ac9-b2fb-44dc-8e50-af2f7f45623f",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "zy"
+          },
+          "56df2584-5400-4642-9ed4-ea93a8e1a7dc": {
+            "id": "56df2584-5400-4642-9ed4-ea93a8e1a7dc",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zz"
+          },
+          "935c36f0-6817-48be-af32-9a2f219ee2c4": {
+            "id": "935c36f0-6817-48be-af32-9a2f219ee2c4",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zzV"
+          },
+          "392d6860-fef4-4acb-821b-b41569b7019e": {
+            "id": "392d6860-fef4-4acb-821b-b41569b7019e",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zzk"
+          },
+          "1aa0bd5e-6d05-465b-a9cd-7aec5f2448c8": {
+            "id": "1aa0bd5e-6d05-465b-a9cd-7aec5f2448c8",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zzs"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sN4me": {
+            "id": "/attributes/@sN4me",
+            "fieldPath": "/attributes/@sN4me",
+            "rank": "z"
+          },
+          "/attributes/@tYp3x": {
+            "id": "/attributes/@tYp3x",
+            "fieldPath": "/attributes/@tYp3x",
+            "rank": "zV"
+          },
+          "/attributes/@strt1": {
+            "id": "/attributes/@strt1",
+            "fieldPath": "/attributes/@strt1",
+            "rank": "zk"
+          },
+          "/attributes/@endd2": {
+            "id": "/attributes/@endd2",
+            "fieldPath": "/attributes/@endd2",
+            "rank": "zs"
+          },
+          "/attributes/@stat5": {
+            "id": "/attributes/@stat5",
+            "fieldPath": "/attributes/@stat5",
+            "rank": "zw"
+          },
+          "4cafc9f6-515d-41a7-b0ad-c0adca5c4b89": {
+            "id": "4cafc9f6-515d-41a7-b0ad-c0adca5c4b89",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "zy"
+          },
+          "69a19110-5538-471e-95ea-5d104b966fa2": {
+            "id": "69a19110-5538-471e-95ea-5d104b966fa2",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zz"
+          },
+          "218e047c-31a5-4b0b-ba60-a9ed320f8115": {
+            "id": "218e047c-31a5-4b0b-ba60-a9ed320f8115",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zzV"
+          },
+          "78d81d04-3691-485e-81d0-5fd2c782ae0a": {
+            "id": "78d81d04-3691-485e-81d0-5fd2c782ae0a",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zzk"
+          },
+          "7200c4fd-0091-4c4f-9909-544abfd33dbd": {
+            "id": "7200c4fd-0091-4c4f-9909-544abfd33dbd",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zzs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@sN4me": {
+            "id": "/attributes/@sN4me",
+            "fieldPath": "/attributes/@sN4me",
+            "rank": "z"
+          },
+          "/attributes/@tYp3x": {
+            "id": "/attributes/@tYp3x",
+            "fieldPath": "/attributes/@tYp3x",
+            "rank": "zV"
+          },
+          "/attributes/@strt1": {
+            "id": "/attributes/@strt1",
+            "fieldPath": "/attributes/@strt1",
+            "rank": "zk"
+          },
+          "/attributes/@endd2": {
+            "id": "/attributes/@endd2",
+            "fieldPath": "/attributes/@endd2",
+            "rank": "zs"
+          },
+          "/attributes/@stat5": {
+            "id": "/attributes/@stat5",
+            "fieldPath": "/attributes/@stat5",
+            "rank": "zw"
+          },
+          "580c431d-87a0-4c2e-a403-300c162be2b9": {
+            "id": "580c431d-87a0-4c2e-a403-300c162be2b9",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "zy"
+          },
+          "09d3a35e-c74a-4fef-ae85-49e49a0d8e43": {
+            "id": "09d3a35e-c74a-4fef-ae85-49e49a0d8e43",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zz"
+          },
+          "ef548f68-fab9-4599-bf26-60b9cbb15895": {
+            "id": "ef548f68-fab9-4599-bf26-60b9cbb15895",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zzV"
+          },
+          "14219230-43ed-4836-ba7e-fa338949ccda": {
+            "id": "14219230-43ed-4836-ba7e-fa338949ccda",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zzk"
+          },
+          "06e77edc-82a3-45fe-aafb-25359646da76": {
+            "id": "06e77edc-82a3-45fe-aafb-25359646da76",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zzs"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sN4me": {
+            "id": "/attributes/@sN4me",
+            "fieldPath": "/attributes/@sN4me",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@tYp3x": {
+            "id": "/attributes/@tYp3x",
+            "fieldPath": "/attributes/@tYp3x",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@strt1": {
+            "id": "/attributes/@strt1",
+            "fieldPath": "/attributes/@strt1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@endd2": {
+            "id": "/attributes/@endd2",
+            "fieldPath": "/attributes/@endd2",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@stat5": {
+            "id": "/attributes/@stat5",
+            "fieldPath": "/attributes/@stat5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "34751236-c3f1-4ffa-a93c-be55e91307db": {
+            "id": "34751236-c3f1-4ffa-a93c-be55e91307db",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "zy"
+          },
+          "7c360c02-8068-4e1a-9c6b-77948d1d2af5": {
+            "id": "7c360c02-8068-4e1a-9c6b-77948d1d2af5",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zz"
+          },
+          "5442fd8a-0d6d-4780-8d79-28fa9331b299": {
+            "id": "5442fd8a-0d6d-4780-8d79-28fa9331b299",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zzV"
+          },
+          "f95e79c1-b85a-4145-9db0-afdf81272156": {
+            "id": "f95e79c1-b85a-4145-9db0-afdf81272156",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zzk"
+          },
+          "4c7574c6-2c75-45e6-ad19-91cff491dbf1": {
+            "id": "4c7574c6-2c75-45e6-ad19-91cff491dbf1",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zzs"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@sN4me": {
+            "id": "/attributes/@sN4me",
+            "fieldPath": "/attributes/@sN4me",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@tYp3x": {
+            "id": "/attributes/@tYp3x",
+            "fieldPath": "/attributes/@tYp3x",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@strt1": {
+            "id": "/attributes/@strt1",
+            "fieldPath": "/attributes/@strt1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@endd2": {
+            "id": "/attributes/@endd2",
+            "fieldPath": "/attributes/@endd2",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@stat5": {
+            "id": "/attributes/@stat5",
+            "fieldPath": "/attributes/@stat5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "88d31a0b-be66-4075-8cfb-2e06d8b313fb": {
+            "id": "88d31a0b-be66-4075-8cfb-2e06d8b313fb",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "zy"
+          },
+          "d484de26-df4e-4e47-90af-cd25b93df694": {
+            "id": "d484de26-df4e-4e47-90af-cd25b93df694",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zz"
+          },
+          "c82bdf3d-7a6e-44b6-80b5-ab876c7eed0a": {
+            "id": "c82bdf3d-7a6e-44b6-80b5-ab876c7eed0a",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zzV"
+          },
+          "c1606ba0-8798-471f-8df2-e86859145106": {
+            "id": "c1606ba0-8798-471f-8df2-e86859145106",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zzk"
+          },
+          "4f8ac71b-2a8d-484a-8f63-04e79261bd08": {
+            "id": "4f8ac71b-2a8d-484a-8f63-04e79261bd08",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zzs"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "53f642cd-f453-458a-8652-af46940cf557": {
+            "id": "53f642cd-f453-458a-8652-af46940cf557",
+            "fieldPath": "/attributes/@dur4t",
+            "rank": "z"
+          },
+          "2e2f315e-6b3c-4662-9ad7-4582c2fa0e69": {
+            "id": "2e2f315e-6b3c-4662-9ad7-4582c2fa0e69",
+            "fieldPath": "/attributes/@plan9",
+            "rank": "zV"
+          },
+          "36d8583d-6bda-482c-b1d6-c38f4c5dfa92": {
+            "id": "36d8583d-6bda-482c-b1d6-c38f4c5dfa92",
+            "fieldPath": "/attributes/@prc01",
+            "rank": "zk"
+          },
+          "ebda6c56-a439-4dd3-a3bb-14bb9459c11e": {
+            "id": "ebda6c56-a439-4dd3-a3bb-14bb9459c11e",
+            "fieldPath": "/attributes/@cur01",
+            "rank": "zs"
+          },
+          "36c41588-08bc-4b2d-9ab8-aaf666a5e8f5": {
+            "id": "36c41588-08bc-4b2d-9ab8-aaf666a5e8f5",
+            "fieldPath": "/attributes/@1c4ce",
+            "rank": "zw"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@cur01": {
+        "type": "string",
+        "displayName": "Para Birimi"
+      },
+      "@stat5": {
+        "type": "Select",
+        "displayName": "Durum",
+        "options": {
+          "active": {
+            "id": "active",
+            "name": "Aktif",
+            "color": "#10B981",
+            "rank": "0"
+          },
+          "paused": {
+            "id": "paused",
+            "name": "Duraklatıldı",
+            "color": "#F59E0B",
+            "rank": "1"
+          },
+          "cancelled": {
+            "id": "cancelled",
+            "name": "İptal edildi",
+            "color": "#6B7280",
+            "rank": "2"
+          }
+        }
+      },
+      "@dur4t": {
+        "type": "string",
+        "displayName": "Abonelik Süresi"
+      },
+      "@prc01": {
+        "type": "number",
+        "displayName": "Abonelik Ücreti",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      },
+      "@1c4ce": {
+        "type": "string",
+        "displayName": "Sağlayıcı Firma"
+      },
+      "@endd2": {
+        "type": "DateTime",
+        "title": "Bitiş tarihi"
+      },
+      "@strt1": {
+        "type": "DateTime",
+        "title": "Başlangıç tarihi"
+      },
+      "@plan9": {
+        "type": "string",
+        "displayName": "Abonelik Türü"
+      },
+      "@tYp3x": {
+        "type": "Select",
+        "displayName": "Hizmet Türü",
+        "options": {
+          "ai": {
+            "id": "ai",
+            "name": "Süper Zeka",
+            "color": "#8B5CF6",
+            "rank": "0"
+          },
+          "egitim": {
+            "id": "egitim",
+            "name": "Online eğitim",
+            "color": "#0EA5E9",
+            "rank": "1"
+          },
+          "domain": {
+            "id": "domain",
+            "name": "Domain",
+            "color": "#64748B",
+            "rank": "2"
+          },
+          "egitim_sitesi": {
+            "id": "egitim_sitesi",
+            "name": "Eğitim sitesi",
+            "color": "#2563EB",
+            "rank": "3"
+          },
+          "eglence": {
+            "id": "eglence",
+            "name": "Eğlence",
+            "color": "#EC4899",
+            "rank": "4"
+          },
+          "mobil_uygulama": {
+            "id": "mobil_uygulama",
+            "name": "Mobil Uygulama",
+            "color": "#14B8A6",
+            "rank": "5"
+          },
+          "hosting": {
+            "id": "hosting",
+            "name": "Hosting",
+            "color": "#10B981",
+            "rank": "6"
+          },
+          "diger": {
+            "id": "diger",
+            "name": "Diğer",
+            "color": "#F59E0B",
+            "rank": "7"
+          }
+        }
+      },
+      "@sN4me": {
+        "type": "string",
+        "displayName": "Abonelik adı"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📚"
+    }
+  },
+  "pinnedAt": "2026-10-11T17:19:03.898Z"
+}

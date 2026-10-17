@@ -1,0 +1,771 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "39c40336-e5c2-486c-8cbe-450394ba46af",
+        "text": {
+          "ops": [
+            {
+              "insert": "TCMB Kur Arşivi"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "33157960-efae-4a8b-ac6b-d1693a8adba6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TCMB yayın tarihi 2026-10-09",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fxdt1": "2026-10-09",
+              "@fxxml": "<Tarih_Date Tarih=\"09.10.2026\"><Currency CurrencyCode=\"USD\" Unit=\"1\"><ForexSelling>49.2160</ForexSelling></Currency><Currency CurrencyCode=\"AUD\" Unit=\"1\"><ForexSelling>34.4293</ForexSelling></Currency><Currency CurrencyCode=\"DKK\" Unit=\"1\"><ForexSelling>7.3972</ForexSelling></Currency><Currency CurrencyCode=\"EUR\" Unit=\"1\"><ForexSelling>55.2105</ForexSelling></Currency><Currency CurrencyCode=\"GBP\" Unit=\"1\"><ForexSelling>65.2430</ForexSelling></Currency><Currency CurrencyCode=\"CHF\" Unit=\"1\"><ForexSelling>59.3676</ForexSelling></Currency><Currency CurrencyCode=\"SEK\" Unit=\"1\"><ForexSelling>4.9614</ForexSelling></Currency><Currency CurrencyCode=\"CAD\" Unit=\"1\"><ForexSelling>34.6382</ForexSelling></Currency><Currency CurrencyCode=\"KWD\" Unit=\"1\"><ForexSelling>160.6079</ForexSelling></Currency><Currency CurrencyCode=\"NOK\" Unit=\"1\"><ForexSelling>5.1559</ForexSelling></Currency><Currency CurrencyCode=\"SAR\" Unit=\"1\"><ForexSelling>13.1089</ForexSelling></Currency><Currency CurrencyCode=\"JPY\" Unit=\"100\"><ForexSelling>31.1727</ForexSelling></Currency><Currency CurrencyCode=\"RON\" Unit=\"1\"><ForexSelling>10.3919</ForexSelling></Currency><Currency CurrencyCode=\"RUB\" Unit=\"1\"><ForexSelling>0.58258</ForexSelling></Currency><Currency CurrencyCode=\"CNY\" Unit=\"1\"><ForexSelling>7.3944</ForexSelling></Currency><Currency CurrencyCode=\"PKR\" Unit=\"1\"><ForexSelling>0.17872</ForexSelling></Currency><Currency CurrencyCode=\"QAR\" Unit=\"1\"><ForexSelling>13.5890</ForexSelling></Currency><Currency CurrencyCode=\"KRW\" Unit=\"1\"><ForexSelling>0.03688</ForexSelling></Currency><Currency CurrencyCode=\"AZN\" Unit=\"1\"><ForexSelling>29.1125</ForexSelling></Currency><Currency CurrencyCode=\"AED\" Unit=\"1\"><ForexSelling>13.4751</ForexSelling></Currency><Currency CurrencyCode=\"KZT\" Unit=\"1\"><ForexSelling>0.10928</ForexSelling></Currency></Tarih_Date"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bded08d3-e4e4-499a-a0a3-428b7460d075",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TCMB kur snapshot 2026-10-12T18:00:00.000+03:00[Europe/Istanbul]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fxdt1": "2026-10-12T18:00:00.000+03:00[Europe/Istanbul]",
+              "@fxxml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-stylesheet type=\"text/xsl\" href=\"isokur.xsl\"?>\r\n<Tarih_Date Tarih=\"12.10.2026\" Date=\"10/12/2026\"  Bulten_No=\"2026/192\" >\r\n\t<Currency CrossOrder=\"0\" Kod=\"USD\" CurrencyCode=\"USD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ABD DOLARI</Isim>\r\n\t\t\t<CurrencyName>US DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>49.2471</ForexBuying>\r\n\t\t\t<ForexSelling>49.3358</ForexSelling>\r\n\t\t\t<BanknoteBuying>49.2126</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>49.4098</BanknoteSelling>\r\n\t\t\t<CrossRateUSD/>\r\n\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"1\" Kod=\"AUD\" CurrencyCode=\"AUD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AVUSTRALYA DOLARI</Isim>\r\n\t\t\t<CurrencyName>AUSTRALIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.2625</ForexBuying>\r\n\t\t\t<ForexSelling>34.4859</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.1049</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.6928</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4340</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"2\" Kod=\"DKK\" CurrencyCode=\"DKK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>DANİMARKA KRONU</Isim>\r\n\t\t\t<CurrencyName>DANISH KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>7.3611</ForexBuying>\r\n\t\t\t<ForexSelling>7.3972</ForexSelling>\r\n\t\t\t<BanknoteBuying>7.3559</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>7.4142</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6798</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"9\" Kod=\"EUR\" CurrencyCode=\"EUR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>EURO</Isim>\r\n\t\t\t<CurrencyName>EURO</CurrencyName>\r\n\t\t\t<ForexBuying>55.1075</ForexBuying>\r\n\t\t\t<ForexSelling>55.2068</ForexSelling>\r\n\t\t\t<BanknoteBuying>55.0689</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>55.2896</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.1190</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"10\" Kod=\"GBP\" CurrencyCode=\"GBP\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İNGİLİZ STERLİNİ</Isim>\r\n\t\t\t<CurrencyName>POUND STERLING</CurrencyName>\r\n\t\t\t<ForexBuying>65.0881</ForexBuying>\r\n\t\t\t<ForexSelling>65.4274</ForexSelling>\r\n\t\t\t<BanknoteBuying>65.0425</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>65.5256</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.3239</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"3\" Kod=\"CHF\" CurrencyCode=\"CHF\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVİÇRE FRANGI</Isim>\r\n\t\t\t<CurrencyName>SWISS FRANK</CurrencyName>\r\n\t\t\t<ForexBuying>59.0307</ForexBuying>\r\n\t\t\t<ForexSelling>59.4097</ForexSelling>\r\n\t\t\t<BanknoteBuying>58.9421</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>59.4988</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>0.8323</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"4\" Kod=\"SEK\" CurrencyCode=\"SEK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>SWEDISH KRONA</CurrencyName>\r\n\t\t\t<ForexBuying>4.8971</ForexBuying>\r\n\t\t\t<ForexSelling>4.9478</ForexSelling>\r\n\t\t\t<BanknoteBuying>4.8937</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>4.9592</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>10.01</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"6\" Kod=\"CAD\" CurrencyCode=\"CAD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KANADA DOLARI</Isim>\r\n\t\t\t<CurrencyName>CANADIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.4876</ForexBuying>\r\n\t\t\t<ForexSelling>34.6432</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.3600</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.7748</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4260</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"11\" Kod=\"KWD\" CurrencyCode=\"KWD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KUVEYT DİNARI</Isim>\r\n\t\t\t<CurrencyName>KUWAITI DINAR</CurrencyName>\r\n\t\t\t<ForexBuying>158.9195</ForexBuying>\r\n\t\t\t<ForexSelling>160.9990</ForexSelling>\r\n\t\t\t<BanknoteBuying>156.5357</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>163.4140</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>3.2452</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"7\" Kod=\"NOK\" CurrencyCode=\"NOK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>NORVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>NORWEGIAN KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>5.1323</ForexBuying>\r\n\t\t\t<ForexSelling>5.1668</ForexSelling>\r\n\t\t\t<BanknoteBuying>5.1287</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>5.1787</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.5720</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"8\" Kod=\"SAR\" CurrencyCode=\"SAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>SUUDİ ARABİSTAN RİYALİ</Isim>\r\n\t\t\t<CurrencyName>SAUDI RIYAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.1124</ForexBuying>\r\n\t\t\t<ForexSelling>13.1360</ForexSelling>\r\n\t\t\t<BanknoteBuying>13.0140</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>13.2345</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.7558</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"5\" Kod=\"JPY\" CurrencyCode=\"JPY\">\r\n\t\t\t<Unit>100</Unit>\r\n\t\t\t<Isim>JAPON YENİ</Isim>\r\n\t\t\t<CurrencyName>JAPENESE YEN</CurrencyName>\r\n\t\t\t<ForexBuying>30.9940</ForexBuying>\r\n\t\t\t<ForexSelling>31.1992</ForexSelling>\r\n\t\t\t<BanknoteBuying>30.8793</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>31.3177</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>158.51</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"13\" Kod=\"RON\" CurrencyCode=\"RON\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUMEN LEYİ</Isim>\r\n\t\t\t<CurrencyName>NEW LEU</CurrencyName>\r\n\t\t\t<ForexBuying>10.2681</ForexBuying>\r\n\t\t\t<ForexSelling>10.4024</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>4.7693</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"14\" Kod=\"RUB\" CurrencyCode=\"RUB\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUS RUBLESİ</Isim>\r\n\t\t\t<CurrencyName>RUSSIAN ROUBLE</CurrencyName>\r\n\t\t\t<ForexBuying>0.58243</ForexBuying>\r\n\t\t\t<ForexSelling>0.59005</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>84.08</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"16\" Kod=\"CNY\" CurrencyCode=\"CNY\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ÇİN YUANI</Isim>\r\n\t\t\t<CurrencyName>CHINESE RENMINBI</CurrencyName>\r\n\t\t\t<ForexBuying>7.3170</ForexBuying>\r\n\t\t\t<ForexSelling>7.4128</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6927</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"17\" Kod=\"PKR\" CurrencyCode=\"PKR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>PAKİSTAN RUPİSİ</Isim>\r\n\t\t\t<CurrencyName>PAKISTANI RUPEE</CurrencyName>\r\n\t\t\t<ForexBuying>0.17687</ForexBuying>\r\n\t\t\t<ForexSelling>0.17918</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>276.88</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"18\" Kod=\"QAR\" CurrencyCode=\"QAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KATAR RİYALİ</Isim>\r\n\t\t\t<CurrencyName>QATARI RIAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.4344</ForexBuying>\r\n\t\t\t<ForexSelling>13.6102</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6452</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"19\" Kod=\"KRW\" CurrencyCode=\"KRW\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>GÜNEY KORE WONU</Isim>\r\n\t\t\t<CurrencyName>SOUTH KOREAN WON</CurrencyName>\r\n\t\t\t<ForexBuying>0.03675</ForexBuying>\r\n\t\t\t<ForexSelling>0.03723</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1332</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"20\" Kod=\"AZN\" CurrencyCode=\"AZN\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AZERBAYCAN YENİ MANATI</Isim>\r\n\t\t\t<CurrencyName>AZERBAIJANI NEW MANAT</CurrencyName>\r\n\t\t\t<ForexBuying>28.8065</ForexBuying>\r\n\t\t\t<ForexSelling>29.1834</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.7000</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"21\" Kod=\"AED\" CurrencyCode=\"AED\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ</Isim>\r\n\t\t\t<CurrencyName>UNITED ARAB EMIRATES DIRHAM</CurrencyName>\r\n\t\t\t<ForexBuying>13.3334</ForexBuying>\r\n\t\t\t<ForexSelling>13.5079</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6728</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"22\" Kod=\"KZT\" CurrencyCode=\"KZT\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KAZAKİSTAN TENGESİ</Isim>\r\n\t\t\t<CurrencyName>KAZAKHSTAN TENGE</CurrencyName>\r\n\t\t\t<ForexBuying>0.10839</ForexBuying>\r\n\t\t\t<ForexSelling>0.10981</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>451.80</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"0\" Kod=\"XDR\" CurrencyCode=\"XDR\">\r\n\t\t<Unit>1</Unit>\r\n\t\t<Isim>ÖZEL ÇEKME HAKKI (SDR)                            </Isim>\r\n\t\t<CurrencyName>SPECIAL DRAWING RIGHT (SDR)                       </CurrencyName>\r\n\t\t<ForexBuying>66.6708</ForexBuying>\r\n\t\t<ForexSelling/>\r\n\t\t<BanknoteBuying/>\r\n\t\t<BanknoteSelling/>\r\n\t\t<CrossRateUSD/>\r\n\t\t<CrossRateOther>1.35258</CrossRateOther>\r\n\t</Currency>\r\n</Tarih_Date>\r\n"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1a885aea-b69b-49e0-8766-002c0859fcdb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TCMB kur snapshot 2026-10-13T18:00:00.000+03:00[Europe/Istanbul]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fxdt1": "2026-10-13T18:00:00.000+03:00[Europe/Istanbul]",
+              "@fxxml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-stylesheet type=\"text/xsl\" href=\"isokur.xsl\"?>\r\n<Tarih_Date Tarih=\"13.10.2026\" Date=\"10/13/2026\"  Bulten_No=\"2026/193\" >\r\n\t<Currency CrossOrder=\"0\" Kod=\"USD\" CurrencyCode=\"USD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ABD DOLARI</Isim>\r\n\t\t\t<CurrencyName>US DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>49.2794</ForexBuying>\r\n\t\t\t<ForexSelling>49.3681</ForexSelling>\r\n\t\t\t<BanknoteBuying>49.2449</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>49.4422</BanknoteSelling>\r\n\t\t\t<CrossRateUSD/>\r\n\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"1\" Kod=\"AUD\" CurrencyCode=\"AUD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AVUSTRALYA DOLARI</Isim>\r\n\t\t\t<CurrencyName>AUSTRALIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.2702</ForexBuying>\r\n\t\t\t<ForexSelling>34.4937</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.1126</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.7007</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4346</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"2\" Kod=\"DKK\" CurrencyCode=\"DKK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>DANİMARKA KRONU</Isim>\r\n\t\t\t<CurrencyName>DANISH KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>7.3611</ForexBuying>\r\n\t\t\t<ForexSelling>7.3973</ForexSelling>\r\n\t\t\t<BanknoteBuying>7.3560</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>7.4143</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6842</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"9\" Kod=\"EUR\" CurrencyCode=\"EUR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>EURO</Isim>\r\n\t\t\t<CurrencyName>EURO</CurrencyName>\r\n\t\t\t<ForexBuying>55.1128</ForexBuying>\r\n\t\t\t<ForexSelling>55.2121</ForexSelling>\r\n\t\t\t<BanknoteBuying>55.0742</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>55.2949</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.1184</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"10\" Kod=\"GBP\" CurrencyCode=\"GBP\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İNGİLİZ STERLİNİ</Isim>\r\n\t\t\t<CurrencyName>POUND STERLING</CurrencyName>\r\n\t\t\t<ForexBuying>65.1201</ForexBuying>\r\n\t\t\t<ForexSelling>65.4596</ForexSelling>\r\n\t\t\t<BanknoteBuying>65.0745</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>65.5578</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.3237</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"3\" Kod=\"CHF\" CurrencyCode=\"CHF\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVİÇRE FRANGI</Isim>\r\n\t\t\t<CurrencyName>SWISS FRANK</CurrencyName>\r\n\t\t\t<ForexBuying>59.0351</ForexBuying>\r\n\t\t\t<ForexSelling>59.4142</ForexSelling>\r\n\t\t\t<BanknoteBuying>58.9466</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>59.5033</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>0.8328</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"4\" Kod=\"SEK\" CurrencyCode=\"SEK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>SWEDISH KRONA</CurrencyName>\r\n\t\t\t<ForexBuying>4.9077</ForexBuying>\r\n\t\t\t<ForexSelling>4.9585</ForexSelling>\r\n\t\t\t<BanknoteBuying>4.9042</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>4.9699</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.9986</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"6\" Kod=\"CAD\" CurrencyCode=\"CAD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KANADA DOLARI</Isim>\r\n\t\t\t<CurrencyName>CANADIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.5137</ForexBuying>\r\n\t\t\t<ForexSelling>34.6693</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.3860</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.8011</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4259</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"11\" Kod=\"KWD\" CurrencyCode=\"KWD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KUVEYT DİNARI</Isim>\r\n\t\t\t<CurrencyName>KUWAITI DINAR</CurrencyName>\r\n\t\t\t<ForexBuying>158.9463</ForexBuying>\r\n\t\t\t<ForexSelling>161.0261</ForexSelling>\r\n\t\t\t<BanknoteBuying>156.5621</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>163.4415</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>3.2436</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"7\" Kod=\"NOK\" CurrencyCode=\"NOK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>NORVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>NORWEGIAN KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>5.1464</ForexBuying>\r\n\t\t\t<ForexSelling>5.1810</ForexSelling>\r\n\t\t\t<BanknoteBuying>5.1428</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>5.1929</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.5520</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"8\" Kod=\"SAR\" CurrencyCode=\"SAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>SUUDİ ARABİSTAN RİYALİ</Isim>\r\n\t\t\t<CurrencyName>SAUDI RIYAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.1212</ForexBuying>\r\n\t\t\t<ForexSelling>13.1448</ForexSelling>\r\n\t\t\t<BanknoteBuying>13.0228</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>13.2434</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.7557</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"5\" Kod=\"JPY\" CurrencyCode=\"JPY\">\r\n\t\t\t<Unit>100</Unit>\r\n\t\t\t<Isim>JAPON YENİ</Isim>\r\n\t\t\t<CurrencyName>JAPENESE YEN</CurrencyName>\r\n\t\t\t<ForexBuying>31.0945</ForexBuying>\r\n\t\t\t<ForexSelling>31.3004</ForexSelling>\r\n\t\t\t<BanknoteBuying>30.9795</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>31.4194</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>158.10</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"13\" Kod=\"RON\" CurrencyCode=\"RON\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUMEN LEYİ</Isim>\r\n\t\t\t<CurrencyName>NEW LEU</CurrencyName>\r\n\t\t\t<ForexBuying>10.2705</ForexBuying>\r\n\t\t\t<ForexSelling>10.4048</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>4.7713</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"14\" Kod=\"RUB\" CurrencyCode=\"RUB\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUS RUBLESİ</Isim>\r\n\t\t\t<CurrencyName>RUSSIAN ROUBLE</CurrencyName>\r\n\t\t\t<ForexBuying>0.58488</ForexBuying>\r\n\t\t\t<ForexSelling>0.59253</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>83.78</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"16\" Kod=\"CNY\" CurrencyCode=\"CNY\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ÇİN YUANI</Isim>\r\n\t\t\t<CurrencyName>CHINESE RENMINBI</CurrencyName>\r\n\t\t\t<ForexBuying>7.3200</ForexBuying>\r\n\t\t\t<ForexSelling>7.4158</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6944</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"17\" Kod=\"PKR\" CurrencyCode=\"PKR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>PAKİSTAN RUPİSİ</Isim>\r\n\t\t\t<CurrencyName>PAKISTANI RUPEE</CurrencyName>\r\n\t\t\t<ForexBuying>0.17699</ForexBuying>\r\n\t\t\t<ForexSelling>0.17930</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>276.88</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"18\" Kod=\"QAR\" CurrencyCode=\"QAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KATAR RİYALİ</Isim>\r\n\t\t\t<CurrencyName>QATARI RIAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.4432</ForexBuying>\r\n\t\t\t<ForexSelling>13.6191</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6452</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"19\" Kod=\"KRW\" CurrencyCode=\"KRW\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>GÜNEY KORE WONU</Isim>\r\n\t\t\t<CurrencyName>SOUTH KOREAN WON</CurrencyName>\r\n\t\t\t<ForexBuying>0.03654</ForexBuying>\r\n\t\t\t<ForexSelling>0.03702</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1341</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"20\" Kod=\"AZN\" CurrencyCode=\"AZN\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AZERBAYCAN YENİ MANATI</Isim>\r\n\t\t\t<CurrencyName>AZERBAIJANI NEW MANAT</CurrencyName>\r\n\t\t\t<ForexBuying>28.8254</ForexBuying>\r\n\t\t\t<ForexSelling>29.2026</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.7000</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"21\" Kod=\"AED\" CurrencyCode=\"AED\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ</Isim>\r\n\t\t\t<CurrencyName>UNITED ARAB EMIRATES DIRHAM</CurrencyName>\r\n\t\t\t<ForexBuying>13.3418</ForexBuying>\r\n\t\t\t<ForexSelling>13.5164</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6729</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"22\" Kod=\"KZT\" CurrencyCode=\"KZT\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KAZAKİSTAN TENGESİ</Isim>\r\n\t\t\t<CurrencyName>KAZAKHSTAN TENGE</CurrencyName>\r\n\t\t\t<ForexBuying>0.10900</ForexBuying>\r\n\t\t\t<ForexSelling>0.11042</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>449.58</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"0\" Kod=\"XDR\" CurrencyCode=\"XDR\">\r\n\t\t<Unit>1</Unit>\r\n\t\t<Isim>ÖZEL ÇEKME HAKKI (SDR)                            </Isim>\r\n\t\t<CurrencyName>SPECIAL DRAWING RIGHT (SDR)                       </CurrencyName>\r\n\t\t<ForexBuying>66.7109</ForexBuying>\r\n\t\t<ForexSelling/>\r\n\t\t<BanknoteBuying/>\r\n\t\t<BanknoteSelling/>\r\n\t\t<CrossRateUSD/>\r\n\t\t<CrossRateOther>1.35251</CrossRateOther>\r\n\t</Currency>\r\n</Tarih_Date>\r\n"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d0e80af4-85b4-4593-bcda-15751f91826d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TCMB kur snapshot 2026-10-14T18:00:00.000+03:00[Europe/Istanbul]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fxdt1": "2026-10-14T18:00:00.000+03:00[Europe/Istanbul]",
+              "@fxxml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-stylesheet type=\"text/xsl\" href=\"isokur.xsl\"?>\r\n<Tarih_Date Tarih=\"14.10.2026\" Date=\"10/14/2026\"  Bulten_No=\"2026/194\" >\r\n\t<Currency CrossOrder=\"0\" Kod=\"USD\" CurrencyCode=\"USD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ABD DOLARI</Isim>\r\n\t\t\t<CurrencyName>US DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>49.3041</ForexBuying>\r\n\t\t\t<ForexSelling>49.3929</ForexSelling>\r\n\t\t\t<BanknoteBuying>49.2695</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>49.4670</BanknoteSelling>\r\n\t\t\t<CrossRateUSD/>\r\n\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"1\" Kod=\"AUD\" CurrencyCode=\"AUD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AVUSTRALYA DOLARI</Isim>\r\n\t\t\t<CurrencyName>AUSTRALIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.4686</ForexBuying>\r\n\t\t\t<ForexSelling>34.6933</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.3100</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.9015</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4270</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"2\" Kod=\"DKK\" CurrencyCode=\"DKK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>DANİMARKA KRONU</Isim>\r\n\t\t\t<CurrencyName>DANISH KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>7.3734</ForexBuying>\r\n\t\t\t<ForexSelling>7.4096</ForexSelling>\r\n\t\t\t<BanknoteBuying>7.3682</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>7.4266</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6764</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"9\" Kod=\"EUR\" CurrencyCode=\"EUR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>EURO</Isim>\r\n\t\t\t<CurrencyName>EURO</CurrencyName>\r\n\t\t\t<ForexBuying>55.2033</ForexBuying>\r\n\t\t\t<ForexSelling>55.3027</ForexSelling>\r\n\t\t\t<BanknoteBuying>55.1646</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>55.3857</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.1197</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"10\" Kod=\"GBP\" CurrencyCode=\"GBP\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İNGİLİZ STERLİNİ</Isim>\r\n\t\t\t<CurrencyName>POUND STERLING</CurrencyName>\r\n\t\t\t<ForexBuying>65.2910</ForexBuying>\r\n\t\t\t<ForexSelling>65.6314</ForexSelling>\r\n\t\t\t<BanknoteBuying>65.2453</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>65.7298</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.3265</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"3\" Kod=\"CHF\" CurrencyCode=\"CHF\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVİÇRE FRANGI</Isim>\r\n\t\t\t<CurrencyName>SWISS FRANK</CurrencyName>\r\n\t\t\t<ForexBuying>59.0399</ForexBuying>\r\n\t\t\t<ForexSelling>59.4190</ForexSelling>\r\n\t\t\t<BanknoteBuying>58.9513</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>59.5081</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>0.8332</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"4\" Kod=\"SEK\" CurrencyCode=\"SEK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>SWEDISH KRONA</CurrencyName>\r\n\t\t\t<ForexBuying>4.9282</ForexBuying>\r\n\t\t\t<ForexSelling>4.9792</ForexSelling>\r\n\t\t\t<BanknoteBuying>4.9248</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>4.9907</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.9619</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"6\" Kod=\"CAD\" CurrencyCode=\"CAD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KANADA DOLARI</Isim>\r\n\t\t\t<CurrencyName>CANADIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.6413</ForexBuying>\r\n\t\t\t<ForexSelling>34.7976</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.5131</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.9298</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4214</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"11\" Kod=\"KWD\" CurrencyCode=\"KWD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KUVEYT DİNARI</Isim>\r\n\t\t\t<CurrencyName>KUWAITI DINAR</CurrencyName>\r\n\t\t\t<ForexBuying>159.1034</ForexBuying>\r\n\t\t\t<ForexSelling>161.1853</ForexSelling>\r\n\t\t\t<BanknoteBuying>156.7168</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>163.6030</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>3.2452</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"7\" Kod=\"NOK\" CurrencyCode=\"NOK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>NORVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>NORWEGIAN KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>5.1814</ForexBuying>\r\n\t\t\t<ForexSelling>5.2162</ForexSelling>\r\n\t\t\t<BanknoteBuying>5.1778</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>5.2282</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.4923</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"8\" Kod=\"SAR\" CurrencyCode=\"SAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>SUUDİ ARABİSTAN RİYALİ</Isim>\r\n\t\t\t<CurrencyName>SAUDI RIYAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.1302</ForexBuying>\r\n\t\t\t<ForexSelling>13.1539</ForexSelling>\r\n\t\t\t<BanknoteBuying>13.0318</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>13.2526</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.7550</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"5\" Kod=\"JPY\" CurrencyCode=\"JPY\">\r\n\t\t\t<Unit>100</Unit>\r\n\t\t\t<Isim>JAPON YENİ</Isim>\r\n\t\t\t<CurrencyName>JAPENESE YEN</CurrencyName>\r\n\t\t\t<ForexBuying>31.0528</ForexBuying>\r\n\t\t\t<ForexSelling>31.2585</ForexSelling>\r\n\t\t\t<BanknoteBuying>30.9379</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>31.3772</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>158.39</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"13\" Kod=\"RON\" CurrencyCode=\"RON\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUMEN LEYİ</Isim>\r\n\t\t\t<CurrencyName>NEW LEU</CurrencyName>\r\n\t\t\t<ForexBuying>10.2756</ForexBuying>\r\n\t\t\t<ForexSelling>10.4101</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>4.7713</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"14\" Kod=\"RUB\" CurrencyCode=\"RUB\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUS RUBLESİ</Isim>\r\n\t\t\t<CurrencyName>RUSSIAN ROUBLE</CurrencyName>\r\n\t\t\t<ForexBuying>0.58364</ForexBuying>\r\n\t\t\t<ForexSelling>0.59128</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>84.00</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"16\" Kod=\"CNY\" CurrencyCode=\"CNY\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ÇİN YUANI</Isim>\r\n\t\t\t<CurrencyName>CHINESE RENMINBI</CurrencyName>\r\n\t\t\t<ForexBuying>7.3255</ForexBuying>\r\n\t\t\t<ForexSelling>7.4213</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6928</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"17\" Kod=\"PKR\" CurrencyCode=\"PKR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>PAKİSTAN RUPİSİ</Isim>\r\n\t\t\t<CurrencyName>PAKISTANI RUPEE</CurrencyName>\r\n\t\t\t<ForexBuying>0.17708</ForexBuying>\r\n\t\t\t<ForexSelling>0.17939</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>276.88</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"18\" Kod=\"QAR\" CurrencyCode=\"QAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KATAR RİYALİ</Isim>\r\n\t\t\t<CurrencyName>QATARI RIAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.4509</ForexBuying>\r\n\t\t\t<ForexSelling>13.6269</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6449</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"19\" Kod=\"KRW\" CurrencyCode=\"KRW\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>GÜNEY KORE WONU</Isim>\r\n\t\t\t<CurrencyName>SOUTH KOREAN WON</CurrencyName>\r\n\t\t\t<ForexBuying>0.03670</ForexBuying>\r\n\t\t\t<ForexSelling>0.03718</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1336</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"20\" Kod=\"AZN\" CurrencyCode=\"AZN\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AZERBAYCAN YENİ MANATI</Isim>\r\n\t\t\t<CurrencyName>AZERBAIJANI NEW MANAT</CurrencyName>\r\n\t\t\t<ForexBuying>28.8398</ForexBuying>\r\n\t\t\t<ForexSelling>29.2172</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.7000</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"21\" Kod=\"AED\" CurrencyCode=\"AED\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ</Isim>\r\n\t\t\t<CurrencyName>UNITED ARAB EMIRATES DIRHAM</CurrencyName>\r\n\t\t\t<ForexBuying>13.3485</ForexBuying>\r\n\t\t\t<ForexSelling>13.5232</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6729</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"22\" Kod=\"KZT\" CurrencyCode=\"KZT\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KAZAKİSTAN TENGESİ</Isim>\r\n\t\t\t<CurrencyName>KAZAKHSTAN TENGE</CurrencyName>\r\n\t\t\t<ForexBuying>0.10884</ForexBuying>\r\n\t\t\t<ForexSelling>0.11026</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>450.47</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"0\" Kod=\"XDR\" CurrencyCode=\"XDR\">\r\n\t\t<Unit>1</Unit>\r\n\t\t<Isim>ÖZEL ÇEKME HAKKI (SDR)                            </Isim>\r\n\t\t<CurrencyName>SPECIAL DRAWING RIGHT (SDR)                       </CurrencyName>\r\n\t\t<ForexBuying>66.7733</ForexBuying>\r\n\t\t<ForexSelling/>\r\n\t\t<BanknoteBuying/>\r\n\t\t<BanknoteSelling/>\r\n\t\t<CrossRateUSD/>\r\n\t\t<CrossRateOther>1.35310</CrossRateOther>\r\n\t</Currency>\r\n</Tarih_Date>\r\n"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "bfaf2e63-966d-4c07-84d9-8123e3a135ee",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TCMB kur snapshot 2026-10-15T18:00:00.000+03:00[Europe/Istanbul]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fxdt1": "2026-10-15T18:00:00.000+03:00[Europe/Istanbul]",
+              "@fxxml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-stylesheet type=\"text/xsl\" href=\"isokur.xsl\"?>\r\n<Tarih_Date Tarih=\"15.10.2026\" Date=\"10/15/2026\"  Bulten_No=\"2026/195\" >\r\n\t<Currency CrossOrder=\"0\" Kod=\"USD\" CurrencyCode=\"USD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ABD DOLARI</Isim>\r\n\t\t\t<CurrencyName>US DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>49.3315</ForexBuying>\r\n\t\t\t<ForexSelling>49.4204</ForexSelling>\r\n\t\t\t<BanknoteBuying>49.2970</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>49.4945</BanknoteSelling>\r\n\t\t\t<CrossRateUSD/>\r\n\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"1\" Kod=\"AUD\" CurrencyCode=\"AUD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AVUSTRALYA DOLARI</Isim>\r\n\t\t\t<CurrencyName>AUSTRALIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.0838</ForexBuying>\r\n\t\t\t<ForexSelling>34.3060</ForexSelling>\r\n\t\t\t<BanknoteBuying>33.9270</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.5119</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4440</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"2\" Kod=\"DKK\" CurrencyCode=\"DKK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>DANİMARKA KRONU</Isim>\r\n\t\t\t<CurrencyName>DANISH KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>7.3879</ForexBuying>\r\n\t\t\t<ForexSelling>7.4242</ForexSelling>\r\n\t\t\t<BanknoteBuying>7.3828</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>7.4413</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6669</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"9\" Kod=\"EUR\" CurrencyCode=\"EUR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>EURO</Isim>\r\n\t\t\t<CurrencyName>EURO</CurrencyName>\r\n\t\t\t<ForexBuying>55.3113</ForexBuying>\r\n\t\t\t<ForexSelling>55.4110</ForexSelling>\r\n\t\t\t<BanknoteBuying>55.2726</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>55.4941</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.1212</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"10\" Kod=\"GBP\" CurrencyCode=\"GBP\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İNGİLİZ STERLİNİ</Isim>\r\n\t\t\t<CurrencyName>POUND STERLING</CurrencyName>\r\n\t\t\t<ForexBuying>65.2551</ForexBuying>\r\n\t\t\t<ForexSelling>65.5953</ForexSelling>\r\n\t\t\t<BanknoteBuying>65.2094</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>65.6937</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.3250</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"3\" Kod=\"CHF\" CurrencyCode=\"CHF\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVİÇRE FRANGI</Isim>\r\n\t\t\t<CurrencyName>SWISS FRANK</CurrencyName>\r\n\t\t\t<ForexBuying>59.2934</ForexBuying>\r\n\t\t\t<ForexSelling>59.6741</ForexSelling>\r\n\t\t\t<BanknoteBuying>59.2044</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>59.7636</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>0.8301</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"4\" Kod=\"SEK\" CurrencyCode=\"SEK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>SWEDISH KRONA</CurrencyName>\r\n\t\t\t<ForexBuying>4.9242</ForexBuying>\r\n\t\t\t<ForexSelling>4.9752</ForexSelling>\r\n\t\t\t<BanknoteBuying>4.9207</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>4.9866</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.9756</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"6\" Kod=\"CAD\" CurrencyCode=\"CAD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KANADA DOLARI</Isim>\r\n\t\t\t<CurrencyName>CANADIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.6775</ForexBuying>\r\n\t\t\t<ForexSelling>34.8339</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.5492</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.9663</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4207</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"11\" Kod=\"KWD\" CurrencyCode=\"KWD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KUVEYT DİNARI</Isim>\r\n\t\t\t<CurrencyName>KUWAITI DINAR</CurrencyName>\r\n\t\t\t<ForexBuying>159.1920</ForexBuying>\r\n\t\t\t<ForexSelling>161.2750</ForexSelling>\r\n\t\t\t<BanknoteBuying>156.8041</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>163.6941</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>3.2452</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"7\" Kod=\"NOK\" CurrencyCode=\"NOK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>NORVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>NORWEGIAN KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>5.1713</ForexBuying>\r\n\t\t\t<ForexSelling>5.2061</ForexSelling>\r\n\t\t\t<BanknoteBuying>5.1677</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>5.2181</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.5160</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"8\" Kod=\"SAR\" CurrencyCode=\"SAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>SUUDİ ARABİSTAN RİYALİ</Isim>\r\n\t\t\t<CurrencyName>SAUDI RIYAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.1440</ForexBuying>\r\n\t\t\t<ForexSelling>13.1677</ForexSelling>\r\n\t\t\t<BanknoteBuying>13.0454</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>13.2665</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.7532</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"5\" Kod=\"JPY\" CurrencyCode=\"JPY\">\r\n\t\t\t<Unit>100</Unit>\r\n\t\t\t<Isim>JAPON YENİ</Isim>\r\n\t\t\t<CurrencyName>JAPENESE YEN</CurrencyName>\r\n\t\t\t<ForexBuying>31.1777</ForexBuying>\r\n\t\t\t<ForexSelling>31.3842</ForexSelling>\r\n\t\t\t<BanknoteBuying>31.0624</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>31.5034</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>157.85</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"13\" Kod=\"RON\" CurrencyCode=\"RON\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUMEN LEYİ</Isim>\r\n\t\t\t<CurrencyName>NEW LEU</CurrencyName>\r\n\t\t\t<ForexBuying>10.3082</ForexBuying>\r\n\t\t\t<ForexSelling>10.4431</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>4.7588</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"14\" Kod=\"RUB\" CurrencyCode=\"RUB\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUS RUBLESİ</Isim>\r\n\t\t\t<CurrencyName>RUSSIAN ROUBLE</CurrencyName>\r\n\t\t\t<ForexBuying>0.58590</ForexBuying>\r\n\t\t\t<ForexSelling>0.59357</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>83.73</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"16\" Kod=\"CNY\" CurrencyCode=\"CNY\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ÇİN YUANI</Isim>\r\n\t\t\t<CurrencyName>CHINESE RENMINBI</CurrencyName>\r\n\t\t\t<ForexBuying>7.3309</ForexBuying>\r\n\t\t\t<ForexSelling>7.4268</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6916</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"17\" Kod=\"PKR\" CurrencyCode=\"PKR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>PAKİSTAN RUPİSİ</Isim>\r\n\t\t\t<CurrencyName>PAKISTANI RUPEE</CurrencyName>\r\n\t\t\t<ForexBuying>0.17721</ForexBuying>\r\n\t\t\t<ForexSelling>0.17952</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>276.83</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"18\" Kod=\"QAR\" CurrencyCode=\"QAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KATAR RİYALİ</Isim>\r\n\t\t\t<CurrencyName>QATARI RIAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.4574</ForexBuying>\r\n\t\t\t<ForexSelling>13.6335</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6452</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"19\" Kod=\"KRW\" CurrencyCode=\"KRW\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>GÜNEY KORE WONU</Isim>\r\n\t\t\t<CurrencyName>SOUTH KOREAN WON</CurrencyName>\r\n\t\t\t<ForexBuying>0.03649</ForexBuying>\r\n\t\t\t<ForexSelling>0.03697</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1344</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"20\" Kod=\"AZN\" CurrencyCode=\"AZN\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AZERBAYCAN YENİ MANATI</Isim>\r\n\t\t\t<CurrencyName>AZERBAIJANI NEW MANAT</CurrencyName>\r\n\t\t\t<ForexBuying>28.8559</ForexBuying>\r\n\t\t\t<ForexSelling>29.2335</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.7000</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"21\" Kod=\"AED\" CurrencyCode=\"AED\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ</Isim>\r\n\t\t\t<CurrencyName>UNITED ARAB EMIRATES DIRHAM</CurrencyName>\r\n\t\t\t<ForexBuying>13.3562</ForexBuying>\r\n\t\t\t<ForexSelling>13.5310</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6728</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"22\" Kod=\"KZT\" CurrencyCode=\"KZT\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KAZAKİSTAN TENGESİ</Isim>\r\n\t\t\t<CurrencyName>KAZAKHSTAN TENGE</CurrencyName>\r\n\t\t\t<ForexBuying>0.10830</ForexBuying>\r\n\t\t\t<ForexSelling>0.10972</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>452.94</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"0\" Kod=\"XDR\" CurrencyCode=\"XDR\">\r\n\t\t<Unit>1</Unit>\r\n\t\t<Isim>ÖZEL ÇEKME HAKKI (SDR)                            </Isim>\r\n\t\t<CurrencyName>SPECIAL DRAWING RIGHT (SDR)                       </CurrencyName>\r\n\t\t<ForexBuying>66.8496</ForexBuying>\r\n\t\t<ForexSelling/>\r\n\t\t<BanknoteBuying/>\r\n\t\t<BanknoteSelling/>\r\n\t\t<CrossRateUSD/>\r\n\t\t<CrossRateOther>1.35389</CrossRateOther>\r\n\t</Currency>\r\n</Tarih_Date>\r\n"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "03457b6c-c9e1-4526-8264-070db3ff3c84",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TCMB kur snapshot 2026-10-16T18:00:00.000+03:00[Europe/Istanbul]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@fxdt1": "2026-10-16T18:00:00.000+03:00[Europe/Istanbul]",
+              "@fxxml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-stylesheet type=\"text/xsl\" href=\"isokur.xsl\"?>\r\n<Tarih_Date Tarih=\"16.10.2026\" Date=\"10/16/2026\"  Bulten_No=\"2026/196\" >\r\n\t<Currency CrossOrder=\"0\" Kod=\"USD\" CurrencyCode=\"USD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ABD DOLARI</Isim>\r\n\t\t\t<CurrencyName>US DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>49.3573</ForexBuying>\r\n\t\t\t<ForexSelling>49.4463</ForexSelling>\r\n\t\t\t<BanknoteBuying>49.3228</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>49.5204</BanknoteSelling>\r\n\t\t\t<CrossRateUSD/>\r\n\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"1\" Kod=\"AUD\" CurrencyCode=\"AUD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AVUSTRALYA DOLARI</Isim>\r\n\t\t\t<CurrencyName>AUSTRALIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.2637</ForexBuying>\r\n\t\t\t<ForexSelling>34.4871</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.1061</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>34.6941</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4371</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"2\" Kod=\"DKK\" CurrencyCode=\"DKK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>DANİMARKA KRONU</Isim>\r\n\t\t\t<CurrencyName>DANISH KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>7.4155</ForexBuying>\r\n\t\t\t<ForexSelling>7.4519</ForexSelling>\r\n\t\t\t<BanknoteBuying>7.4103</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>7.4691</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6456</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"9\" Kod=\"EUR\" CurrencyCode=\"EUR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>EURO</Isim>\r\n\t\t\t<CurrencyName>EURO</CurrencyName>\r\n\t\t\t<ForexBuying>55.5179</ForexBuying>\r\n\t\t\t<ForexSelling>55.6180</ForexSelling>\r\n\t\t\t<BanknoteBuying>55.4791</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>55.7014</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.1248</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"10\" Kod=\"GBP\" CurrencyCode=\"GBP\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İNGİLİZ STERLİNİ</Isim>\r\n\t\t\t<CurrencyName>POUND STERLING</CurrencyName>\r\n\t\t\t<ForexBuying>65.6633</ForexBuying>\r\n\t\t\t<ForexSelling>66.0056</ForexSelling>\r\n\t\t\t<BanknoteBuying>65.6173</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>66.1047</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>1.3326</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"3\" Kod=\"CHF\" CurrencyCode=\"CHF\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVİÇRE FRANGI</Isim>\r\n\t\t\t<CurrencyName>SWISS FRANK</CurrencyName>\r\n\t\t\t<ForexBuying>59.7521</ForexBuying>\r\n\t\t\t<ForexSelling>60.1358</ForexSelling>\r\n\t\t\t<BanknoteBuying>59.6625</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>60.2260</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>0.8241</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"4\" Kod=\"SEK\" CurrencyCode=\"SEK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>İSVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>SWEDISH KRONA</CurrencyName>\r\n\t\t\t<ForexBuying>4.9631</ForexBuying>\r\n\t\t\t<ForexSelling>5.0145</ForexSelling>\r\n\t\t\t<BanknoteBuying>4.9596</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>5.0260</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.9025</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"6\" Kod=\"CAD\" CurrencyCode=\"CAD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KANADA DOLARI</Isim>\r\n\t\t\t<CurrencyName>CANADIAN DOLLAR</CurrencyName>\r\n\t\t\t<ForexBuying>34.8079</ForexBuying>\r\n\t\t\t<ForexSelling>34.9649</ForexSelling>\r\n\t\t\t<BanknoteBuying>34.6791</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>35.0978</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.4161</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"11\" Kod=\"KWD\" CurrencyCode=\"KWD\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KUVEYT DİNARI</Isim>\r\n\t\t\t<CurrencyName>KUWAITI DINAR</CurrencyName>\r\n\t\t\t<ForexBuying>159.2753</ForexBuying>\r\n\t\t\t<ForexSelling>161.3594</ForexSelling>\r\n\t\t\t<BanknoteBuying>156.8862</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>163.7798</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD/>\r\n\t\t\t\t<CrossRateOther>3.2452</CrossRateOther>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"7\" Kod=\"NOK\" CurrencyCode=\"NOK\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>NORVEÇ KRONU</Isim>\r\n\t\t\t<CurrencyName>NORWEGIAN KRONE</CurrencyName>\r\n\t\t\t<ForexBuying>5.2129</ForexBuying>\r\n\t\t\t<ForexSelling>5.2480</ForexSelling>\r\n\t\t\t<BanknoteBuying>5.2093</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>5.2600</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>9.4450</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"8\" Kod=\"SAR\" CurrencyCode=\"SAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>SUUDİ ARABİSTAN RİYALİ</Isim>\r\n\t\t\t<CurrencyName>SAUDI RIYAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.1524</ForexBuying>\r\n\t\t\t<ForexSelling>13.1761</ForexSelling>\r\n\t\t\t<BanknoteBuying>13.0538</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>13.2749</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.7527</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"5\" Kod=\"JPY\" CurrencyCode=\"JPY\">\r\n\t\t\t<Unit>100</Unit>\r\n\t\t\t<Isim>JAPON YENİ</Isim>\r\n\t\t\t<CurrencyName>JAPENESE YEN</CurrencyName>\r\n\t\t\t<ForexBuying>31.1708</ForexBuying>\r\n\t\t\t<ForexSelling>31.3773</ForexSelling>\r\n\t\t\t<BanknoteBuying>31.0555</BanknoteBuying>\r\n\t\t\t<BanknoteSelling>31.4965</BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>157.96</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"13\" Kod=\"RON\" CurrencyCode=\"RON\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUMEN LEYİ</Isim>\r\n\t\t\t<CurrencyName>NEW LEU</CurrencyName>\r\n\t\t\t<ForexBuying>10.3462</ForexBuying>\r\n\t\t\t<ForexSelling>10.4816</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>4.7438</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"14\" Kod=\"RUB\" CurrencyCode=\"RUB\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>RUS RUBLESİ</Isim>\r\n\t\t\t<CurrencyName>RUSSIAN ROUBLE</CurrencyName>\r\n\t\t\t<ForexBuying>0.58651</ForexBuying>\r\n\t\t\t<ForexSelling>0.59419</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>83.68</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"16\" Kod=\"CNY\" CurrencyCode=\"CNY\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>ÇİN YUANI</Isim>\r\n\t\t\t<CurrencyName>CHINESE RENMINBI</CurrencyName>\r\n\t\t\t<ForexBuying>7.3400</ForexBuying>\r\n\t\t\t<ForexSelling>7.4360</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>6.6868</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"17\" Kod=\"PKR\" CurrencyCode=\"PKR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>PAKİSTAN RUPİSİ</Isim>\r\n\t\t\t<CurrencyName>PAKISTANI RUPEE</CurrencyName>\r\n\t\t\t<ForexBuying>0.17730</ForexBuying>\r\n\t\t\t<ForexSelling>0.17962</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>276.83</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"18\" Kod=\"QAR\" CurrencyCode=\"QAR\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KATAR RİYALİ</Isim>\r\n\t\t\t<CurrencyName>QATARI RIAL</CurrencyName>\r\n\t\t\t<ForexBuying>13.4645</ForexBuying>\r\n\t\t\t<ForexSelling>13.6407</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6452</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"19\" Kod=\"KRW\" CurrencyCode=\"KRW\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>GÜNEY KORE WONU</Isim>\r\n\t\t\t<CurrencyName>SOUTH KOREAN WON</CurrencyName>\r\n\t\t\t<ForexBuying>0.03685</ForexBuying>\r\n\t\t\t<ForexSelling>0.03733</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1332</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"20\" Kod=\"AZN\" CurrencyCode=\"AZN\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>AZERBAYCAN YENİ MANATI</Isim>\r\n\t\t\t<CurrencyName>AZERBAIJANI NEW MANAT</CurrencyName>\r\n\t\t\t<ForexBuying>28.8710</ForexBuying>\r\n\t\t\t<ForexSelling>29.2488</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>1.7000</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"21\" Kod=\"AED\" CurrencyCode=\"AED\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ</Isim>\r\n\t\t\t<CurrencyName>UNITED ARAB EMIRATES DIRHAM</CurrencyName>\r\n\t\t\t<ForexBuying>13.3633</ForexBuying>\r\n\t\t\t<ForexSelling>13.5382</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>3.6728</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"22\" Kod=\"KZT\" CurrencyCode=\"KZT\">\r\n\t\t\t<Unit>1</Unit>\r\n\t\t\t<Isim>KAZAKİSTAN TENGESİ</Isim>\r\n\t\t\t<CurrencyName>KAZAKHSTAN TENGE</CurrencyName>\r\n\t\t\t<ForexBuying>0.10841</ForexBuying>\r\n\t\t\t<ForexSelling>0.10983</ForexSelling>\r\n\t\t\t<BanknoteBuying></BanknoteBuying>\r\n\t\t\t<BanknoteSelling></BanknoteSelling>\r\n\t\t\t\t<CrossRateUSD>452.74</CrossRateUSD>\r\n\t\t\t\t<CrossRateOther/>\r\n\t\t\r\n\t</Currency>\r\n\t<Currency CrossOrder=\"0\" Kod=\"XDR\" CurrencyCode=\"XDR\">\r\n\t\t<Unit>1</Unit>\r\n\t\t<Isim>ÖZEL ÇEKME HAKKI (SDR)                            </Isim>\r\n\t\t<CurrencyName>SPECIAL DRAWING RIGHT (SDR)                       </CurrencyName>\r\n\t\t<ForexBuying>66.9840</ForexBuying>\r\n\t\t<ForexSelling/>\r\n\t\t<BanknoteBuying/>\r\n\t\t<BanknoteSelling/>\r\n\t\t<CrossRateUSD/>\r\n\t\t<CrossRateOther>1.35590</CrossRateOther>\r\n\t</Currency>\r\n</Tarih_Date>\r\n"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fxdt1": {
+            "id": "/attributes/@fxdt1",
+            "fieldPath": "/attributes/@fxdt1",
+            "rank": "z"
+          },
+          "/attributes/@fxxml": {
+            "id": "/attributes/@fxxml",
+            "fieldPath": "/attributes/@fxxml",
+            "rank": "zV"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fxdt1": {
+            "id": "/attributes/@fxdt1",
+            "fieldPath": "/attributes/@fxdt1",
+            "rank": "z"
+          },
+          "/attributes/@fxxml": {
+            "id": "/attributes/@fxxml",
+            "fieldPath": "/attributes/@fxxml",
+            "rank": "zV"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fxdt1": {
+            "id": "/attributes/@fxdt1",
+            "fieldPath": "/attributes/@fxdt1",
+            "rank": "z"
+          },
+          "/attributes/@fxxml": {
+            "id": "/attributes/@fxxml",
+            "fieldPath": "/attributes/@fxxml",
+            "rank": "zV"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@fxdt1": {
+            "id": "/attributes/@fxdt1",
+            "fieldPath": "/attributes/@fxdt1",
+            "rank": "z"
+          },
+          "/attributes/@fxxml": {
+            "id": "/attributes/@fxxml",
+            "fieldPath": "/attributes/@fxxml",
+            "rank": "zV"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@fxdt1": {
+            "id": "/attributes/@fxdt1",
+            "fieldPath": "/attributes/@fxdt1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@fxxml": {
+            "id": "/attributes/@fxxml",
+            "fieldPath": "/attributes/@fxxml",
+            "rank": "zV",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@fxdt1": {
+            "id": "/attributes/@fxdt1",
+            "fieldPath": "/attributes/@fxdt1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@fxxml": {
+            "id": "/attributes/@fxxml",
+            "fieldPath": "/attributes/@fxxml",
+            "rank": "zV",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@fxdt1": {
+        "type": "string",
+        "displayName": "TCMB tarihi"
+      },
+      "@fxxml": {
+        "type": "string",
+        "displayName": "TCMB XML"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "💫"
+    }
+  }
+}

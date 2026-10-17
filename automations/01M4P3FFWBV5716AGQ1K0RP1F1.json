@@ -1,0 +1,112 @@
+{
+  "version": "2",
+  "flowTitle": "TCMB Kur Arşivi",
+  "trigger": {
+    "valid": true,
+    "displayName": "Her hafta içi TCMB yayınını kontrol et",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "timeOfDay": "6:00 PM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "849ecd67-a81c-4752-9e7c-85108215fca8",
+      "valid": true,
+      "displayName": "TCMB XML verisini al",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-http",
+        "pieceVersion": "1.0.0",
+        "actionName": "http.sendRequest",
+        "input": {
+          "url": "https://www.tcmb.gov.tr/kurlar/today.xml",
+          "method": "GET",
+          "responseType": "none",
+          "followRedirects": "true",
+          "returnStatusOnError": "true"
+        }
+      }
+    },
+    {
+      "name": "e85e4fb7-ca7f-4688-b485-768640d77d87",
+      "valid": true,
+      "displayName": "Yalnızca başarılı TCMB yanıtını sakla",
+      "type": "FILTER",
+      "settings": {
+        "input": {
+          "type": "or",
+          "value": [
+            {
+              "type": "and",
+              "value": [
+                {
+                  "condition": "text_matches",
+                  "id": "d4f007e2-8d3e-481d-a3d6-51f850eef72b",
+                  "data": "{{ 849ecd67-a81c-4752-9e7c-85108215fca8[\"status\"] }}",
+                  "comparator": "200"
+                }
+              ]
+            }
+          ]
+        },
+        "inputUiInfo": {}
+      }
+    },
+    {
+      "name": "7ada3c84-f80a-4e2c-82c1-1c73dbaa3a41",
+      "valid": false,
+      "displayName": "Kur XML kaydını arşivle",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@fxdt1": {
+              "data": {
+                "value": "{{ trigger[\"triggerTime\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@fxdt1"
+            },
+            "@fxxml": {
+              "data": {
+                "value": "{{ 849ecd67-a81c-4752-9e7c-85108215fca8[\"rawBody\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@fxxml"
+            }
+          },
+          "content": "TCMB kur snapshot {{ trigger[\"triggerTime\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "6Jn8YRhbGgfdzxMa"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "6Jn8YRhbGgfdzxMa": {
+      "id": "6Jn8YRhbGgfdzxMa",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

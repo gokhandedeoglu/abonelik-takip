@@ -1,0 +1,141 @@
+{
+  "version": "2",
+  "flowTitle": "Abonelik Bitiş Hatırlatması",
+  "trigger": {
+    "valid": true,
+    "displayName": "Her gün saat 09.00",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "c30439c6-baaa-4cf5-a78e-dd0b55316ad9",
+      "valid": false,
+      "displayName": "Bugün biten aktif abonelikleri bul",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "tasks.find",
+        "input": {
+          "ruleset": {
+            "type": "or",
+            "value": [
+              {
+                "type": "and",
+                "value": [
+                  {
+                    "id": "99423309-bf09-41d3-ae35-22c26080f7c5",
+                    "fieldId": "@stat5",
+                    "condition": "text_matches",
+                    "comparator": "active"
+                  },
+                  {
+                    "id": "d1635710-56ac-4a21-a72b-fc6f741f319f",
+                    "fieldId": "@endd2",
+                    "condition": "date_comes_after",
+                    "comparator": "{{ 'now' | date: '%Y-%m-%d' | dateOffset: '-P1D' }}"
+                  },
+                  {
+                    "id": "b997d3c5-1a46-4030-8ac3-da773a4919fb",
+                    "fieldId": "@endd2",
+                    "condition": "date_comes_before",
+                    "comparator": "{{ 'now' | date: '%Y-%m-%d' | dateOffset: 'P1D' }}"
+                  }
+                ]
+              }
+            ]
+          },
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "jn59xRvo13UJUeW5"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "8f1fcf13-0c1b-4165-afcc-3b0b5cb1349c",
+      "valid": true,
+      "displayName": "Abonelik adlarını e-posta için hazırla",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "pieceVersion": "1.0.0",
+        "actionName": "transform.arrayIntoString",
+        "input": {
+          "joinMechanism": "new_line",
+          "transformEachItemIntoString": {
+            "array": {
+              "path": [
+                "c30439c6-baaa-4cf5-a78e-dd0b55316ad9",
+                "tasks"
+              ],
+              "type": "reference"
+            },
+            "template": "• {{ currentElement[\"nodeText\"] }}"
+          }
+        }
+      }
+    },
+    {
+      "name": "6f859f85-0fbf-470d-a0b1-bfc9bee219cf",
+      "valid": true,
+      "displayName": "Yalnızca eşleşen kayıt varsa sürdür",
+      "type": "FILTER",
+      "settings": {
+        "input": {
+          "type": "or",
+          "value": [
+            {
+              "type": "and",
+              "value": [
+                {
+                  "condition": "text_is_not_empty",
+                  "id": "11ce560d-3531-4772-b08f-437ac81da1b5",
+                  "data": "{{ 8f1fcf13-0c1b-4165-afcc-3b0b5cb1349c[\"result\"] }}",
+                  "comparator": ""
+                }
+              ]
+            }
+          ]
+        },
+        "inputUiInfo": {}
+      }
+    },
+    {
+      "name": "36b1bdbc-42c4-47ff-bc8f-e013cec49728",
+      "valid": true,
+      "displayName": "Bitiş hatırlatma e-postası gönder",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "Bugün biten aktif abonelikler:\n\n{{ 8f1fcf13-0c1b-4165-afcc-3b0b5cb1349c[\"result\"] }}\n\nKayıtlarınızı abonelik takip ekranından kontrol edebilirsiniz.",
+          "format": "plain",
+          "subject": "Bugün biten abonelik hatırlatması",
+          "recipientEmail": "gdedeoglu@gmail.com"
+        }
+      }
+    }
+  ],
+  "variables": {
+    "jn59xRvo13UJUeW5": {
+      "id": "jn59xRvo13UJUeW5",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}
